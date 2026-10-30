@@ -1,0 +1,21 @@
+# 原始数据不入库（含研究数据，体积大且涉隐私）
+*.dta
+*.dta.gz
+*.sav
+*.xpt
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 编辑器
+.idea/
+.vscode/
+
+# 运行产生的中间结果
+输出结果/
+!examples/
+*.log
